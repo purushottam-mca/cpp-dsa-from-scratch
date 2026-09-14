@@ -29,8 +29,9 @@ The cpp file has the full implementation plus a small demo in `main()`. The READ
 11. `11-avl-tree/` - self balancing BST with rotations
 12. `12-trie/` - letter tree for prefix search
 13. `13-graph/` - adjacency list with BFS, DFS, cycle check
+14. `14-union-find/` - disjoint sets with path compression
 
-Coming next: union-find, dijkstra, red black tree.
+Coming next: dijkstra, red black tree, segment tree.
 
 ## How to run any topic
 
@@ -50,6 +51,7 @@ g++ -std=c++17 -Wall -Wextra 10-min-heap/min-heap.cpp -o /tmp/minheap && /tmp/mi
 g++ -std=c++17 -Wall -Wextra 11-avl-tree/avl-tree.cpp -o /tmp/avl && /tmp/avl
 g++ -std=c++17 -Wall -Wextra 12-trie/trie.cpp -o /tmp/trie && /tmp/trie
 g++ -std=c++17 -Wall -Wextra 13-graph/graph.cpp -o /tmp/graph && /tmp/graph
+g++ -std=c++17 -Wall -Wextra 14-union-find/union-find.cpp -o /tmp/uf && /tmp/uf
 ```
 
 ## Ground rules for this repo
