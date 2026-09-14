@@ -32,8 +32,9 @@ The cpp file has the full implementation plus a small demo in `main()`. The READ
 14. `14-union-find/` - disjoint sets with path compression
 15. `15-dijkstra/` - shortest paths with a min heap
 16. `16-red-black-tree/` - balanced BST with color fixup
+17. `17-segment-tree/` - range sums with point updates
 
-Coming next: segment tree, topological sort.
+Coming next: topological sort, trie extras, bellman-ford.
 
 ## How to run any topic
 
@@ -56,6 +57,7 @@ g++ -std=c++17 -Wall -Wextra 13-graph/graph.cpp -o /tmp/graph && /tmp/graph
 g++ -std=c++17 -Wall -Wextra 14-union-find/union-find.cpp -o /tmp/uf && /tmp/uf
 g++ -std=c++17 -Wall -Wextra 15-dijkstra/dijkstra.cpp -o /tmp/dij && /tmp/dij
 g++ -std=c++17 -Wall -Wextra 16-red-black-tree/red-black-tree.cpp -o /tmp/rb && /tmp/rb
+g++ -std=c++17 -Wall -Wextra 17-segment-tree/segment-tree.cpp -o /tmp/seg && /tmp/seg
 ```
 
 ## Ground rules for this repo
