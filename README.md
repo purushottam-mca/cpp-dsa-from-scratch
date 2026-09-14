@@ -30,8 +30,9 @@ The cpp file has the full implementation plus a small demo in `main()`. The READ
 12. `12-trie/` - letter tree for prefix search
 13. `13-graph/` - adjacency list with BFS, DFS, cycle check
 14. `14-union-find/` - disjoint sets with path compression
+15. `15-dijkstra/` - shortest paths with a min heap
 
-Coming next: dijkstra, red black tree, segment tree.
+Coming next: red black tree, segment tree, topological sort.
 
 ## How to run any topic
 
@@ -52,6 +53,7 @@ g++ -std=c++17 -Wall -Wextra 11-avl-tree/avl-tree.cpp -o /tmp/avl && /tmp/avl
 g++ -std=c++17 -Wall -Wextra 12-trie/trie.cpp -o /tmp/trie && /tmp/trie
 g++ -std=c++17 -Wall -Wextra 13-graph/graph.cpp -o /tmp/graph && /tmp/graph
 g++ -std=c++17 -Wall -Wextra 14-union-find/union-find.cpp -o /tmp/uf && /tmp/uf
+g++ -std=c++17 -Wall -Wextra 15-dijkstra/dijkstra.cpp -o /tmp/dij && /tmp/dij
 ```
 
 ## Ground rules for this repo
