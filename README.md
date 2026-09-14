@@ -22,8 +22,13 @@ The cpp file has the full implementation plus a small demo in `main()`. The READ
 4. `hashmap/` - key value store built on hashing (HashSet idea included)
 5. `lru-cache/` - cache that drops the least recently used entry
 6. `smart-pointers/` - simple UniquePtr and SharedPtr to learn ownership
+7. `mru-cache/` - cache that drops the most recently used entry
+8. `binary-search-tree/` - ordered tree with three-case delete
+9. `max-heap/` - biggest item always on top
+10. `min-heap/` - smallest item always on top, top-k stream trick included
+11. `avl-tree/` - self balancing BST with rotations
 
-Coming next: MRU cache, heap, trie.
+Coming next: trie, graph, red black tree.
 
 ## How to run any topic
 
@@ -36,6 +41,11 @@ g++ -std=c++17 -Wall -Wextra queue/queue.cpp -o /tmp/queue && /tmp/queue
 g++ -std=c++17 -Wall -Wextra hashmap/hashmap.cpp -o /tmp/hashmap && /tmp/hashmap
 g++ -std=c++17 -Wall -Wextra lru-cache/lru-cache.cpp -o /tmp/lru && /tmp/lru
 g++ -std=c++17 -Wall -Wextra smart-pointers/smart-pointers.cpp -o /tmp/smart && /tmp/smart
+g++ -std=c++17 -Wall -Wextra mru-cache/mru-cache.cpp -o /tmp/mru && /tmp/mru
+g++ -std=c++17 -Wall -Wextra binary-search-tree/binary-search-tree.cpp -o /tmp/bst && /tmp/bst
+g++ -std=c++17 -Wall -Wextra max-heap/max-heap.cpp -o /tmp/maxheap && /tmp/maxheap
+g++ -std=c++17 -Wall -Wextra min-heap/min-heap.cpp -o /tmp/minheap && /tmp/minheap
+g++ -std=c++17 -Wall -Wextra avl-tree/avl-tree.cpp -o /tmp/avl && /tmp/avl
 ```
 
 ## Ground rules for this repo
