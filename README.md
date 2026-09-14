@@ -27,8 +27,9 @@ The cpp file has the full implementation plus a small demo in `main()`. The READ
 9. `09-max-heap/` - biggest item always on top
 10. `10-min-heap/` - smallest item always on top, top-k stream trick included
 11. `11-avl-tree/` - self balancing BST with rotations
+12. `12-trie/` - letter tree for prefix search
 
-Coming next: trie, graph, red black tree.
+Coming next: graph, union-find, red black tree.
 
 ## How to run any topic
 
@@ -46,6 +47,7 @@ g++ -std=c++17 -Wall -Wextra 08-binary-search-tree/binary-search-tree.cpp -o /tm
 g++ -std=c++17 -Wall -Wextra 09-max-heap/max-heap.cpp -o /tmp/maxheap && /tmp/maxheap
 g++ -std=c++17 -Wall -Wextra 10-min-heap/min-heap.cpp -o /tmp/minheap && /tmp/minheap
 g++ -std=c++17 -Wall -Wextra 11-avl-tree/avl-tree.cpp -o /tmp/avl && /tmp/avl
+g++ -std=c++17 -Wall -Wextra 12-trie/trie.cpp -o /tmp/trie && /tmp/trie
 ```
 
 ## Ground rules for this repo
