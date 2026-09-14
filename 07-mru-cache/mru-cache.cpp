@@ -1,7 +1,7 @@
 // MRUCache: hash map plus doubly linked list.
 // Most used sits at the front. Full cache drops the FRONT (most used).
 // That single eviction flip is the whole difference from LRU.
-// Compile: g++ -std=c++17 -Wall -Wextra mru-cache/mru-cache.cpp -o /tmp/mru && /tmp/mru
+// Compile: g++ -std=c++17 -Wall -Wextra 07-mru-cache/mru-cache.cpp -o /tmp/mru && /tmp/mru
 
 #include <cassert>
 #include <iostream>

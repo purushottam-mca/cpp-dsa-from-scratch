@@ -1,5 +1,5 @@
 // MyStack: last in, first out. Built on a simple growing array.
-// Compile: g++ -std=c++17 -Wall -Wextra stack/stack.cpp -o /tmp/stack && /tmp/stack
+// Compile: g++ -std=c++17 -Wall -Wextra 02-stack/stack.cpp -o /tmp/stack && /tmp/stack
 
 #include <cassert>
 #include <iostream>

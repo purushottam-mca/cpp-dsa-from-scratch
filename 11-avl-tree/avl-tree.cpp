@@ -1,7 +1,7 @@
 // AVLTree: a binary search tree that rebalances itself on every insert.
 // Each node stores its height. Balance factor = left height minus right height.
 // Allowed range is -1 to 1. Anything outside triggers a rotation.
-// Compile: g++ -std=c++17 -Wall -Wextra avl-tree/avl-tree.cpp -o /tmp/avl && /tmp/avl
+// Compile: g++ -std=c++17 -Wall -Wextra 11-avl-tree/avl-tree.cpp -o /tmp/avl && /tmp/avl
 
 #include <algorithm>
 #include <cassert>

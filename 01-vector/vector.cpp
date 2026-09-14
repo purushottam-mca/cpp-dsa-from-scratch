@@ -1,5 +1,5 @@
 // MyVector: a simple dynamic array built from scratch.
-// Compile: g++ -std=c++17 -Wall -Wextra vector/vector.cpp -o /tmp/vector && /tmp/vector
+// Compile: g++ -std=c++17 -Wall -Wextra 01-vector/vector.cpp -o /tmp/vector && /tmp/vector
 
 #include <cassert>
 #include <iostream>

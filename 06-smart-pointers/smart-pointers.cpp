@@ -1,5 +1,5 @@
 // Simplified UniquePtr and SharedPtr to learn ownership and RAII.
-// Compile: g++ -std=c++17 -Wall -Wextra smart-pointers/smart-pointers.cpp -o /tmp/smart && /tmp/smart
+// Compile: g++ -std=c++17 -Wall -Wextra 06-smart-pointers/smart-pointers.cpp -o /tmp/smart && /tmp/smart
 
 #include <cassert>
 #include <iostream>

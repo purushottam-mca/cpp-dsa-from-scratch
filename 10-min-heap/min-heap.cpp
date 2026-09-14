@@ -1,6 +1,6 @@
 // MinHeap: array based binary heap, smallest item always on top.
 // Same shape as MaxHeap with every comparison flipped.
-// Compile: g++ -std=c++17 -Wall -Wextra min-heap/min-heap.cpp -o /tmp/minheap && /tmp/minheap
+// Compile: g++ -std=c++17 -Wall -Wextra 10-min-heap/min-heap.cpp -o /tmp/minheap && /tmp/minheap
 
 #include <cassert>
 #include <iostream>

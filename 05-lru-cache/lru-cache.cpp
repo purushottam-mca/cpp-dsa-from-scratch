@@ -1,6 +1,6 @@
 // LRUCache: hash map plus doubly linked list.
 // Most used sits at the front, least used at the back. Full cache drops the back.
-// Compile: g++ -std=c++17 -Wall -Wextra lru-cache/lru-cache.cpp -o /tmp/lru && /tmp/lru
+// Compile: g++ -std=c++17 -Wall -Wextra 05-lru-cache/lru-cache.cpp -o /tmp/lru && /tmp/lru
 
 #include <cassert>
 #include <iostream>

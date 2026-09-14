@@ -1,6 +1,6 @@
 // BST: plain binary search tree with insert, search, remove, and traversal.
 // Smaller keys go left, bigger keys go right. Duplicates are ignored.
-// Compile: g++ -std=c++17 -Wall -Wextra binary-search-tree/binary-search-tree.cpp -o /tmp/bst && /tmp/bst
+// Compile: g++ -std=c++17 -Wall -Wextra 08-binary-search-tree/binary-search-tree.cpp -o /tmp/bst && /tmp/bst
 
 #include <cassert>
 #include <iostream>

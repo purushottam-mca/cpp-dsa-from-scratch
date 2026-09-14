@@ -1,6 +1,6 @@
 // MaxHeap: array based binary heap, biggest item always on top.
 // Parent of i is (i-1)/2. Children of i are 2*i+1 and 2*i+2.
-// Compile: g++ -std=c++17 -Wall -Wextra max-heap/max-heap.cpp -o /tmp/maxheap && /tmp/maxheap
+// Compile: g++ -std=c++17 -Wall -Wextra 09-max-heap/max-heap.cpp -o /tmp/maxheap && /tmp/maxheap
 
 #include <cassert>
 #include <iostream>

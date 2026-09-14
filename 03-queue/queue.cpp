@@ -1,5 +1,5 @@
 // MyQueue: first in, first out, with a circular array.
-// Compile: g++ -std=c++17 -Wall -Wextra queue/queue.cpp -o /tmp/queue && /tmp/queue
+// Compile: g++ -std=c++17 -Wall -Wextra 03-queue/queue.cpp -o /tmp/queue && /tmp/queue
 
 #include <cassert>
 #include <iostream>

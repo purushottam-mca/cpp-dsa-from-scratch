@@ -1,5 +1,5 @@
 // MyHashMap: key value store with separate chaining and rehashing.
-// Compile: g++ -std=c++17 -Wall -Wextra hashmap/hashmap.cpp -o /tmp/hashmap && /tmp/hashmap
+// Compile: g++ -std=c++17 -Wall -Wextra 04-hashmap/hashmap.cpp -o /tmp/hashmap && /tmp/hashmap
 
 #include <cassert>
 #include <functional>
