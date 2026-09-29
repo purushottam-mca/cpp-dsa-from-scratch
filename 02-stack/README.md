@@ -17,7 +17,7 @@ Sometimes they add: "use it to check balanced brackets." That is the classic fol
 
 A stack is a pile of plates. You add to the top and take from the top. You never reach into the middle.
 
-Inside, this version is just a plain array with a counter that says where the top is. Push writes at the counter and moves it up. Pop moves the counter down. Top reads one below the counter. When the array fills up, it doubles exactly like a vector.
+Inside, this version is just a plain array with a counter that says where the top is. Push writes at the counter and moves it up. Pop moves the counter down. Top reads one below the counter. When the array fills up, it doubles exactly like a vector. (There can be approach with linked list as well)
 
 Pop and top on an empty stack throw an error. Say that line in the interview. It shows you care about safety.
 
